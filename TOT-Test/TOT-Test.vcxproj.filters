@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="Public\Unreal.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Public\CurlHook.h">
+      <Filter>Public</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\minhook\minhook.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\memcury.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\curl\curl.h">
+      <Filter>Include\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\curl\curlver.h">
+      <Filter>Include\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\curl\system.h">
+      <Filter>Include\curl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="Private\CurlHook.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Private">
+      <UniqueIdentifier>{aaa24a50-bf78-4373-866e-0f3932a9bcbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Public">
+      <UniqueIdentifier>{1f9aa787-9819-4f1e-aea4-fe94ebab4901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{e4e9b27c-603e-4c40-9e3d-38c73925d29f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\curl">
+      <UniqueIdentifier>{8f4bc107-1d42-45f1-84b4-6252fe8d3515}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
