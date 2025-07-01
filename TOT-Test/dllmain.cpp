@@ -17,7 +17,8 @@ DWORD MainThread(HMODULE hModule)
 
     CurlHook::output.open(outfile_path / "urls_dump.txt");
 
-    if (MH_Initialize() != MH_OK) {
+    if (MH_Initialize() != MH_OK) 
+    {
         std::cerr << "Failed to initialize MinHook!";
         MessageBoxA(nullptr, "Failed to initialize MinHook!", "Error", MB_ICONERROR | MB_OK);
         goto keybind;
